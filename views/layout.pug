@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css")
+    link(rel='stylesheet' href='/stylesheets/style.css')
+  body
+    p.localTime.bg-dark Local Time : #{date} , #{hours}: #{min}
+    h1.maintitle EXPRESS CHECKPOINT
+    .navbar
+      a(href="/") Home
+      a(href="/services") Services
+      a(href="/contact") Contact Us
+  block content
